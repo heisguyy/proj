@@ -1,0 +1,16 @@
+Given the comment below, determine if the writer of the comment is in any of these categories:
+1. Medical Doctor
+- This label should only include practicing doctors and or consultants to doctors/clinics. 
+- Medical school students, nurses or medical professionals who aren’t doctors should go into the “Other” label (C) instead
+2. Veterinarian
+- This label should only include practicing vets and/or consultants to vets/clinics. 
+- Veterinarian students or veterinarian technicians should go into the “Other” label (C) instead
+3. Other
+- Anyone who does not fit within the Medical Doctor, or a Veterinarian label
+
+Return either "Medical Doctor", "Veterinarian" or "Other" depending on the category it belongs to.
+
+###
+Comment:
+{comment}
+###

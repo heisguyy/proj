@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2 = "*"
+openai = "*"
+tiktoken = "*"
+jupyter = "*"
+notebook = "*"
+pandas = "*"
+scikit-learn = "*"
+catboost = "*"
+lightgbm = "*"
+xgboost = "*"
+optuna = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
